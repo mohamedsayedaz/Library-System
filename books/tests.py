@@ -3,7 +3,7 @@ from django.urls import reverse
 from .models import Book
 
 
-def BookTest(TestCase):
+def TestBook(TestCase):
     @classmethod
     def setUpTestData(cls):
         cls.book = Book.objects.create(
